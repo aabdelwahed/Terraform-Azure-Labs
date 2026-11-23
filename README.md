@@ -19,3 +19,21 @@ This repository contains a comprehensive set of hands-on labs for deploying Micr
 1. Navigate to the specific lab folder:
    ```bash
    cd Lab1
+Initialize Terraform to download the Azure provider:
+
+bash
+terraform init
+Review the execution plan:
+
+bash
+terraform plan -out=terraform-plan.out
+Apply the configuration to deploy resources to Azure:
+
+bash
+terraform apply "terraform-plan.out"
+👨‍💻 Author
+Ahmed Abdelwahed - Cloud & Systems Specialist | Microsoft Certified Trainer (MCT)
+
+Blog: www.abdelwahed.me
+
+LinkedIn: https://www.linkedin.com/in/ahmedmct/
